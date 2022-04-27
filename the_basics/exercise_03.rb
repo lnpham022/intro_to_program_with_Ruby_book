@@ -5,37 +5,27 @@ your program print out the year of each movie to the screen.
 =end 
 
 # Old Ruby Syntax
-movies = {:harry_potter_and_the_sorcerers_stone => 2001, 
-  :harry_potter_and_the_chamber_of_secrets => 2002,
-  :harry_potter_and_the_prisoner_of_azkaban => 2004,
-  :harry_potter_and_the_goblet_of_fire => 2005,
-  :harry_potter_and_the_order_of_the_phoenix => 2007,
-  :harry_potter_and_the_half_blood_prince => 2009,
-  :harry_potter_and_the_deathly_hallows_part_1 => 2010,
-  :harry_potter_and_the_deathly_hallows_part_2 => 2011 }
+movies = { :jaws => 1975,
+  :anchorman => 2004,
+  :man_of_steel => 2013,
+  :a_beautiful_mind => 2001,
+  :the_evil_dead => 1981 }
 
-puts movies[:harry_potter_and_the_sorcerers_stone]
-puts movies[:harry_potter_and_the_prisoner_of_azkaban]
-puts movies[:harry_potter_and_the_goblet_of_fire]
-puts movies[:harry_potter_and_the_order_of_the_phoenix]
-puts movies[:harry_potter_and_the_half_blood_prince]
-puts movies[:harry_potter_and_the_deathly_hallows_part_1]
-puts movies[:harry_potter_and_the_deathly_hallows_part_2]
+puts movies[:jaws]
+puts movies[:anchorman]
+puts movies[:man_of_steel]
+puts movies[:a_beautiful_mind]
+puts movies[:the_evil_dead]
 
 # New Ruby Syntax
-movies = { harry_potter_and_the_sorcerers_stone: 2001, 
-  harry_potter_and_the_chamber_of_secrets: 2002,
-  harry_potter_and_the_prisoner_of_azkaban: 2004,
-  harry_potter_and_the_goblet_of_fire: 2005,
-  harry_potter_and_the_order_of_the_phoenix: 2007,
-  harry_potter_and_the_half_blood_prince: 2009,
-  harry_potter_and_the_deathly_hallows_part_1: 2010,
-  harry_potter_and_the_deathly_hallows_part_2: 2011 }
+movies = { jaws: 1975,
+  anchorman: 2004,
+  man_of_steel: 2013,
+  a_beautiful_mind: 2001,
+  the_evil_dead: 1981 }
 
-puts movies[:harry_potter_and_the_sorcerers_stone]
-puts movies[:harry_potter_and_the_prisoner_of_azkaban]
-puts movies[:harry_potter_and_the_goblet_of_fire]
-puts movies[:harry_potter_and_the_order_of_the_phoenix]
-puts movies[:harry_potter_and_the_half_blood_prince]
-puts movies[:harry_potter_and_the_deathly_hallows_part_1]
-puts movies[:harry_potter_and_the_deathly_hallows_part_2]
+puts movies[:jaws]
+puts movies[:anchorman]
+puts movies[:man_of_steel]
+puts movies[:a_beautiful_mind]
+puts movies[:the_evil_dead]
