@@ -9,3 +9,8 @@ def scream(words)
 end
 
 scream("Yippeee")
+
+=begin
+nothing, because line 4 is never executed as a result 
+of the explicit return on line 3
+=end
